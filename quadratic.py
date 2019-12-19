@@ -7,8 +7,7 @@ def quadratic(a, b, c):
     result1 = (( -b ) + math.sqrt(sqrtNum)) / ( 2 * a)
     result2 = (( -b ) - math.sqrt(sqrtNum)) / ( 2 * a)
     if sqrtNum > 0:
-        print('两个不等根：result1 %d' % result1)
-        print('两个不等根：result2 %d' % result2)
+        print('两个不等根：result1: %d, result2: %d' % (result1, result2))
     elif sqrtNum == 0:
         print('两个相等根：result1=result= %d' % result1 )
     else:
